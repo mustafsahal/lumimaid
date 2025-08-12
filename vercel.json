@@ -1,0 +1,3 @@
+{
+  "buildCommand": "tar -xzf lumimaid-project.tar.gz -C . && npm install && npm run build"
+}
