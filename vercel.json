@@ -1,3 +1,3 @@
 {
-  "buildCommand": "tar -xzf lumimaid-project-new.tar.gz --strip-components=1 -C . && rm -f tsconfig.json && npm install --legacy-peer-deps && npm run build"
+  "buildCommand": "tar -xzf lumimaid-project-new.tar.gz --strip-components=1 -C . && npm install --legacy-peer-deps && npm run build"
 }
