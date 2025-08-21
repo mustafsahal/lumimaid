@@ -1,4 +1,4 @@
 {
-  "buildCommand": "tar -xzf lumimaid-project-new.tar.gz --strip-components=1 -C . && npm install && next build && next export",
+  "buildCommand": "tar -xzf lumimaid-project-new.tar.gz --strip-components=1 -C . && npm install && npm install tailwindcss postcss autoprefixer && next build && next export",
   "outputDirectory": "out"
 }
